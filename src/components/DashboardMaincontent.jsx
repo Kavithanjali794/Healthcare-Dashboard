@@ -2,7 +2,6 @@ import AnatomySection from '../components/Anatomysection';
 import CalendarView from './CalendarView';
 import UpcomingSchedule from './UpcomingSchedule';
 import ActivityFeed from './ActivityChart';
-
 import '../styles/DashboardMainContent.css';
 
 function DashboardMainContent() {
