@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  background-color: #f0f5fa;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #949494;
+   display: flex;
+  justify-content: flex-start; /* or flex-end / center */
+  padding-left: 40px;
+
+}
+
+.nav-item {
+  list-style: none;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #adadad;
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  color: #007bff;
+}
+
+.sidebar-logo {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.logo-health {
+  color: #39BDC8;
+}
+
+.logo-care {
+  color: navy;
+}
+
+.dot {
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1;
+  margin-left: 2px;
+}
+

@@ -1,0 +1,39 @@
+/* Container with sidebar and main area side by side */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.app-container {
+  display: flex;
+  height: 100vh; /* full viewport height */
+  width: 100vw;  /* full viewport width */
+  overflow: hidden;
+}
+
+/* Sidebar fixed width */
+.sidebar {
+  width: 240px; /* adjust as per your sidebar */
+  background-color: #f1f5f9;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; /* scroll if sidebar too tall */
+}
+
+/* Main area fills the rest of the space */
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6faff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; /* scroll if content too tall */
+}
+
+/* Optional: If you want header to stay fixed on top */
+.header {
+  flex-shrink: 0;
+}
+
+/* Content area inside main */
+.dashboard-main-content {
+  flex: 1; /* takes all vertical space left */
+  overflow-y: auto;
+}

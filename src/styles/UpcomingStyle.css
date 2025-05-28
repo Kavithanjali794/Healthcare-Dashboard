@@ -1,0 +1,56 @@
+.schedule-container {
+  background: #f9fbff;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.schedule-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1a64;
+  margin-bottom: 20px;
+}
+
+.schedule-day {
+  margin-bottom: 25px;
+}
+
+.day-title {
+  font-size: 16px;
+  color: #6b6b94;
+  margin-bottom: 10px;
+}
+
+.schedule-events {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background: #e6e9fb;
+  padding: 15px 20px;
+  border-radius: 15px;
+  width: fit-content;
+  min-width: 180px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.event-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a1a64;
+  margin-bottom: 5px;
+}
+
+.event-title span {
+  margin-left: 5px;
+}
+
+.event-time {
+  font-size: 13px;
+  color: #4d4d7c;
+}

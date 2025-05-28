@@ -1,0 +1,19 @@
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Top part: anatomy + calendar */
+.top-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Bottom part: schedule + activity feed */
+.bottom-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
